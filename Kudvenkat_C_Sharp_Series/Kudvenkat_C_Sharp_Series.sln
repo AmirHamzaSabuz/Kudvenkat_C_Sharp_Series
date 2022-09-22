@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Part_011_Switch_Statement",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part_012_ Switch_Statement_Part2", "Part_012_ Switch_Statement_Part2\Part_012_ Switch_Statement_Part2.csproj", "{2860B317-6BAA-40DA-AF0D-7A8ED7A16328}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part_013_While_Loop", "Part_013_While_Loop\Part_013_While_Loop.csproj", "{94B66746-8E78-4850-A690-D80BFA84CBDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{2860B317-6BAA-40DA-AF0D-7A8ED7A16328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2860B317-6BAA-40DA-AF0D-7A8ED7A16328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2860B317-6BAA-40DA-AF0D-7A8ED7A16328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B66746-8E78-4850-A690-D80BFA84CBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B66746-8E78-4850-A690-D80BFA84CBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B66746-8E78-4850-A690-D80BFA84CBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B66746-8E78-4850-A690-D80BFA84CBDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
