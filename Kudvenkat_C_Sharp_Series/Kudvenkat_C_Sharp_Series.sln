@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Part_009_ Comments", "Part_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Part_010_If_Statement", "Part_010_If_Statement\Part_010_If_Statement.csproj", "{6A993254-7B7C-4EAF-9C73-1E90056F6900}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part_011_Switch_Statement", "Part_011_Switch_Statement\Part_011_Switch_Statement.csproj", "{4843F069-6728-40F4-B59B-BD93D66E08B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Part_011_Switch_Statement", "Part_011_Switch_Statement\Part_011_Switch_Statement.csproj", "{4843F069-6728-40F4-B59B-BD93D66E08B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part_012_ Switch_Statement_Part2", "Part_012_ Switch_Statement_Part2\Part_012_ Switch_Statement_Part2.csproj", "{2860B317-6BAA-40DA-AF0D-7A8ED7A16328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{4843F069-6728-40F4-B59B-BD93D66E08B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4843F069-6728-40F4-B59B-BD93D66E08B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4843F069-6728-40F4-B59B-BD93D66E08B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2860B317-6BAA-40DA-AF0D-7A8ED7A16328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2860B317-6BAA-40DA-AF0D-7A8ED7A16328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2860B317-6BAA-40DA-AF0D-7A8ED7A16328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2860B317-6BAA-40DA-AF0D-7A8ED7A16328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
