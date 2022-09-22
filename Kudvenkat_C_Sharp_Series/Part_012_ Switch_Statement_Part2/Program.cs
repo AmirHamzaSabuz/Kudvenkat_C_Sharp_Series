@@ -1,16 +1,14 @@
 ﻿int totalCoffeeCost = 0;
 
 Start:
-Console.WriteLine("Select your coffee size: 1 for Small, 2 for Medium, 3 for Large");
-
 int userChoice = 0;
-bool isUserChoiceInt =    int.TryParse(Console.ReadLine(), out userChoice);
-
-while (!isUserChoiceInt)
+bool isUserChoiceInt;
+do
 {
-    Console.WriteLine("Enter an integer number from 1 to 3");
+    Console.WriteLine("Select your coffee size: 1 for Small, 2 for Medium, 3 for Large. Write an integer form 1 to 3");
     isUserChoiceInt = int.TryParse(Console.ReadLine(), out userChoice);
-}
+}while (!isUserChoiceInt);
+
 
 switch (userChoice)
 { 

@@ -1,14 +1,13 @@
 ﻿
-Console.WriteLine("Please enter your target number to get the even numbers");
-
 int userTarget = 0;
+bool isUserTargetInt;
 
-bool isUserTargetInt = int.TryParse(Console.ReadLine(), out userTarget);
-while (!isUserTargetInt)
+do
 {
-    Console.WriteLine("Please enter an interger for target number");
+    Console.WriteLine("Please enter your target integer number to get the even numbers");
     isUserTargetInt = int.TryParse(Console.ReadLine(), out userTarget);
-}
+} while (!isUserTargetInt);
+
 int i = 0;
 Console.Write("Even numbers are: ");
 while (i <= userTarget)
@@ -20,15 +19,15 @@ Console.WriteLine();
 Console.WriteLine();
 
 
-Console.WriteLine("Please enter your target number to get the odd numbers");
-int userTarget2 = 0;
 
-bool isUserTarget2Int = int.TryParse(Console.ReadLine(), out userTarget2);
-while (!isUserTarget2Int)
+int userTarget2 = 0;
+bool isUserTarget2Int;
+do
 {
-    Console.WriteLine("Please enter an interger for target number");
+    Console.WriteLine("Please enter your target integer number to get the odd numbers");
     isUserTarget2Int = int.TryParse(Console.ReadLine(), out userTarget2);
-}
+} while (!isUserTarget2Int);
+
 int j = 1;
 Console.Write("Odd numbers are: ");
 while (j <= userTarget2)

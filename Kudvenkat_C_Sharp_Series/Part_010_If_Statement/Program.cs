@@ -1,17 +1,16 @@
 ﻿class Program 
 {
-    static void Main() 
+    static void Main()
     {
-        Console.WriteLine("Please enter a number between 1 & 3");
-        string? strUserNumber = Console.ReadLine();
         int iUserNumber;
-        bool isUserNumberInt    = int.TryParse(strUserNumber, out iUserNumber);
-        while(isUserNumberInt == false)
-        {
-            Console.WriteLine("Please enter an integer between 1 & 3");
-            strUserNumber = Console.ReadLine();
-            isUserNumberInt = int.TryParse(strUserNumber, out iUserNumber);
-        }
+        bool isUserNumberInt;
+        do 
+        { 
+            Console.WriteLine("Please enter an integer number between 1 & 3");
+            string? str = Console.ReadLine();
+            isUserNumberInt = int.TryParse(str, out iUserNumber);
+        }while (isUserNumberInt == false);
+
         if (iUserNumber == 1)
         {
             Console.WriteLine("You have entered 1");
