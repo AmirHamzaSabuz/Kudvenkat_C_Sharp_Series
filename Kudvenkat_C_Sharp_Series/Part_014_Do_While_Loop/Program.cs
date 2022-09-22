@@ -18,6 +18,7 @@ do
         Console.Write(start + " ");
         start = start + 2;
     }
+    Console.WriteLine();
    
     do
     {
