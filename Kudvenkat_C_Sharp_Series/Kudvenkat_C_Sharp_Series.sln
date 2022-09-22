@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Part_010_If_Statement", "Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Part_011_Switch_Statement", "Part_011_Switch_Statement\Part_011_Switch_Statement.csproj", "{4843F069-6728-40F4-B59B-BD93D66E08B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part_012_ Switch_Statement_Part2", "Part_012_ Switch_Statement_Part2\Part_012_ Switch_Statement_Part2.csproj", "{2860B317-6BAA-40DA-AF0D-7A8ED7A16328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Part_012_ Switch_Statement_Part2", "Part_012_ Switch_Statement_Part2\Part_012_ Switch_Statement_Part2.csproj", "{2860B317-6BAA-40DA-AF0D-7A8ED7A16328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part_013_While_Loop", "Part_013_While_Loop\Part_013_While_Loop.csproj", "{94B66746-8E78-4850-A690-D80BFA84CBDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Part_013_While_Loop", "Part_013_While_Loop\Part_013_While_Loop.csproj", "{94B66746-8E78-4850-A690-D80BFA84CBDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part_014_Do_While_Loop", "Part_014_Do_While_Loop\Part_014_Do_While_Loop.csproj", "{90503FE7-3020-4E91-AB27-03DC7315CBC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{94B66746-8E78-4850-A690-D80BFA84CBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94B66746-8E78-4850-A690-D80BFA84CBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94B66746-8E78-4850-A690-D80BFA84CBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90503FE7-3020-4E91-AB27-03DC7315CBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90503FE7-3020-4E91-AB27-03DC7315CBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90503FE7-3020-4E91-AB27-03DC7315CBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90503FE7-3020-4E91-AB27-03DC7315CBC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
